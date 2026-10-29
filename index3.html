@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">Videy</header>
+
+<main class="container">
+
+    <div class="video-wrapper">
+
+        <!-- TOMBOL PLAY -->
+        <button id="startBtn">
+            <span>▶</span>
+        </button>
+
+    </div>
+
+</main>
+
+<script>
+document.getElementById("startBtn").addEventListener("click", () => {
+
+    // Buka halaman video di tab baru
+    window.open("videy.html", "_blank");
+
+    // Tab saat ini menuju URL yang sudah ditentukan
+    window.location.href = "https://directyp.org/4/961cfc86367ebb45b6c1d498bb1887b4";
+
+});
+</script>
+</body>
+</html>
